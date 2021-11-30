@@ -19,6 +19,8 @@
         callback(new Error('파일 타입이 png나 jpg 가 아닙니다.'));
     }
 ```
-
+### cors 
+    - localhost/:1 Access to XMLHttpRequest at 'http://localhost:5000/upload' from origin 'http://localhost:3000' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+    - frontend 에서 proxy 설정해주면 됨 . "proxy": "http://localhost:5000" 
 
 infinite scroll
